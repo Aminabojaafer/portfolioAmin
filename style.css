@@ -4,3 +4,59 @@ Author: أمين أبو جعفر
 Description: قالب بسيط لعرض الأعمال
 Version: 1.0
 */
+body {
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  color: #333;
+  direction: rtl;
+}
+
+header {
+  background-color: #004d7a;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.section h2 {
+  color: #004d7a;
+  margin-bottom: 1rem;
+}
+
+.section ul {
+  list-style: disc;
+  padding-right: 1.5rem;
+}
+
+footer {
+  background-color: #004d7a;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
